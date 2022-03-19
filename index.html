@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1,
+        h2 {
+            text-align: center;
+        }
+        
+        .working_mode {
+            list-style-type: circle;
+        }
+        
+        .restorant_menu {
+            width: 50%;
+        }
+        
+        .price {
+            text-align: right;
+        }
+        
+        th {
+            text-align: left;
+            font-size: 20px;
+            padding: 15px 0;
+        }
+        
+        .location {
+            list-style-type: none;
+            list-style-image: url(images/location-pin.png);
+        }
+        
+        .call {
+            list-style-type: none;
+            list-style-image: url(images/phone-call.png);
+        }
+        
+        .email {
+            list-style-type: none;
+            list-style-image: url(images/email.png);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <hr>
+        <h1>Ресторан Прованс</h1>
+        <hr>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about_us">Информация о нас</a>
+                </li>
+
+                <li>
+                    <a href="#menu">Меню</a>
+                </li>
+
+                <li>
+                    <a href="#working_mode">Режим работы</a>
+                </li>
+
+                <li>
+                    <a href="#contacts">Контактная информация</a>
+                </li>
+
+                <li>
+                    <a href="form.html">Забронировать столик</a>
+                </li>
+            </ul>
+
+            <img src="images/restaurant.png" alt="restaurant">
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <hr>
+            <h2 id="about_us">О нас</h2>
+            <hr>
+
+            <p>Посещение ресторанного комплекса <ins>«Прованс»</ins> не оставит равнодушным ни одного посетителя. Даже самого искушенного</p>
+
+            <p>Хотите насладиться чашечкой невероятно вкусного кофе, приготовленного професиональным бариста, и почувствовать великолепный вкус только что приготовленного по всем канонам круассана? Мечтали побаловать себя горячим блюдом из баранины, осьминога,стерляди
+                или щуки? Или может, быть, хотите просто выпить бокал красного вина, наслаждаясь ночьной панорамой российской столицы вместе со «второй половинкой»?</p>
+
+            <p>Все эти и другие самые сокровенные желания способна претворить в жизнь легендарная Останкинская телебашня и ресторанный комплекс «Прованс».</p>
+
+            <br>
+            <br>
+        </section>
+
+        <section>
+            <hr>
+            <h2 id="working_mode">Режим работы</h2>
+            <hr>
+
+            <ul class="working_mode">
+                <li>пн-чт: с 12:00 до 24:00</li>
+                <li>пт: с 12:00 до 02:00</li>
+                <li>сб: с 12:00 до 24:00</li>
+                <li>вс: с 12:00 до 23:00</li>
+            </ul>
+            <br>
+        </section>
+        <section class="restorant_menu">
+
+            <hr>
+            <h2 id="menu">Меню</h2>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <td class="price" colspan="2">цена</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <th colspan="2">Antipasti/Закуски</th>
+                    </tr>
+
+                    <tr>
+                        <td>Carpaccio di Salmone / Карпаччо из семги</td>
+                        <td>16,10</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tar-tar di tonno con avocado / Тар-тар из тунца с авокадо</td>
+                        <td>16,40</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carpaccio di manzo / Карпаччо из говядины </td>
+                        <td>13,60</td>
+                    </tr>
+
+                    <tr>
+                        <td>Formaggio Misto / Сырное ассорти </td>
+                        <td>29,20</td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="2">Pesce / Рыба</th>
+                    </tr>
+
+                    <tr>
+                        <td>Cozze nel vino bianco / Мидии в белом вине или томатном соусе</td>
+                        <td>22,40</td>
+                    </tr>
+
+                    <tr>
+                        <td>Calamari alla griglia / Кальмары на гриле </td>
+                        <td>16,70</td>
+                    </tr>
+
+                    <tr>
+                        <td>Misto di Pesce alla griglia / Ассорти рыбное на гриле </td>
+                        <td>47,20</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dorada in guscio di sale / Дорада в соляном панцире </td>
+                        <td>53,70</td>
+                    </tr>
+
+                    <tr>
+                        <td>Branzino con ceci, acciughe e pompelmo / Морской окунь с нутом, анчоусами и грейпфрутом</td>
+                        <td>23,70</td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="2">Piatti Caldi / Горячие блюда</th>
+                    </tr>
+
+                    <tr>
+                        <td>Vitello con salsa cremosa al tartufo / Телятина со сливочно-трюфельным соусом</td>
+                        <td>46,40</td>
+                    </tr>
+
+                    <tr>
+                        <td>Medaglione di maiale con salsa di melograno / Медальоны из свинины с гранатовым соусом</td>
+                        <td>26,60</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pollo «Caprese» / Цыплёнок «Капрезе»</td>
+                        <td>24,20</td>
+                    </tr>
+
+                    <tr>
+                        <td>Coscia di anatra con salsa di cowberry, con purea di pere e crumble di arachidi / Утиная ножка с брусничным соусом, грушевым пюре и арахисовым крамблом ... </td>
+                        <td>24,20</td>
+                    </tr>
+
+                    <tr>
+                        <td>Filetto di anatra con mirtilli e mele chutney / Утиное филе с клюквенно-яблочным чатни</td>
+                        <td>27,70</td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="2">Dolci / Десерты</th>
+                    </tr>
+
+                    <tr>
+                        <td>Tiramisu / Тирамису</td>
+                        <td>10,40</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cheesecake con mango / Чизкейк с манго </td>
+                        <td>9,20</td>
+                    </tr>
+
+                    <tr>
+                        <td>Gelato «Casa» / Мороженое «домашнее» </td>
+                        <td>7,40</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <hr>
+            <h2 id="contacts">Контактная информация:</h2>
+            <hr>
+            <ul>
+                <li class="location">Адрес: г.Минск, ул.Советская 76</li>
+                <li class="call"> <a href="tel:+375338004444">Телефон: +375 33 800 44 44</a> </li>
+                <li class="email"> <a href="mailto:provance@gmail.com">Email:provance@gmail.com</a> </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
